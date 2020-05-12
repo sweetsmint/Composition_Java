@@ -11,4 +11,11 @@ on:
 
 jobs:
   test:
-    run
+    runs-on: "ubuntu-22.04"
+
+    steps:
+      - uses: "actions/checkout@v2"
+
+      - name: "Install CI dependencies"
+        run: |
+          ./run ci:install-
