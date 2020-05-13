@@ -23,4 +23,7 @@ jobs:
       - name: "Test"
         run: |
           # Remove volumes in CI to avoid permission errors due to UID / GID.
-          sed -i "
+          sed -i "s|.:/app|/tmp:/tmp|g" .env*
+          sed -i "s|.:/app|/tmp:/tmp|g" docker-compose.yml
+
+          ./run ci:test
