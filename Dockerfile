@@ -23,4 +23,9 @@ USER ruby
 COPY --chown=ruby:ruby Gemfile* ./
 RUN bundle install
 
-COPY --
+COPY --chown=ruby:ruby package.json *yarn* ./
+RUN yarn install
+
+ARG RAILS_ENV="production"
+ARG NODE_ENV="production"
+ENV RAILS_ENV="${RAILS_
