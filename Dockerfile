@@ -40,4 +40,7 @@ RUN if [ "${RAILS_ENV}" != "development" ]; then \
 
 CMD ["bash"]
 
-#################################
+###############################################################################
+
+FROM ruby:3.2.1-slim-bullseye AS app
+LABEL maintainer="Nick Janetakis <nick.janet
