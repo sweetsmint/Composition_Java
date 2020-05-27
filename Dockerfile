@@ -43,4 +43,12 @@ CMD ["bash"]
 ###############################################################################
 
 FROM ruby:3.2.1-slim-bullseye AS app
-LABEL maintainer="Nick Janetakis <nick.janet
+LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
+
+WORKDIR /app
+
+ARG UID=1000
+ARG GID=1000
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends build-essenti
