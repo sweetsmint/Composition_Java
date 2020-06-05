@@ -56,4 +56,11 @@ RUN apt-get update \
   && apt-get clean \
   && groupadd -g "${GID}" ruby \
   && useradd --create-home --no-log-init -u "${UID}" -g "${GID}" ruby \
-  && chown ruby:
+  && chown ruby:ruby -R /app
+
+USER ruby
+
+COPY --chown=ruby:ruby bin/ ./bin
+RUN chmod 0755 bin/*
+
+ARG RAILS_ENV="productio
