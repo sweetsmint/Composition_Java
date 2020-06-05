@@ -63,4 +63,9 @@ USER ruby
 COPY --chown=ruby:ruby bin/ ./bin
 RUN chmod 0755 bin/*
 
-ARG RAILS_ENV="productio
+ARG RAILS_ENV="production"
+ENV RAILS_ENV="${RAILS_ENV}" \
+    PATH="${PATH}:/home/ruby/.local/bin" \
+    USER="ruby"
+
+COPY --chown=ruby:ruby --from=assets 
