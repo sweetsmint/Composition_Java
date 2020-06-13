@@ -19,4 +19,10 @@ GEM
     actionmailer (7.0.4.2)
       actionpack (= 7.0.4.2)
       actionview (= 7.0.4.2)
-      activejob 
+      activejob (= 7.0.4.2)
+      activesupport (= 7.0.4.2)
+      mail (~> 2.5, >= 2.5.4)
+      net-imap
+      net-pop
+      net-smtp
+      rails-dom-t
