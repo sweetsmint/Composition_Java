@@ -12,4 +12,11 @@ GEM
       activerecord (= 7.0.4.2)
       activestorage (= 7.0.4.2)
       activesupport (= 7.0.4.2)
-      mail (>= 2.7
+      mail (>= 2.7.1)
+      net-imap
+      net-pop
+      net-smtp
+    actionmailer (7.0.4.2)
+      actionpack (= 7.0.4.2)
+      actionview (= 7.0.4.2)
+      activejob 
