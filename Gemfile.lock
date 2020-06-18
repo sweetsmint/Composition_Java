@@ -43,4 +43,8 @@ GEM
     actionview (7.0.4.2)
       activesupport (= 7.0.4.2)
       builder (~> 3.1)
-  
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    activejob (7.0.4.2)
+      activesupport (= 7.0.4.2)
