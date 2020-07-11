@@ -89,4 +89,10 @@ GEM
     date (3.3.3)
     debug (1.7.1)
     erubi (1.12.0)
-    globalid (1.1
+    globalid (1.1.0)
+      activesupport (>= 5.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.
