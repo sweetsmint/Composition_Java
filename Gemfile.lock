@@ -114,4 +114,10 @@ GEM
     msgpack (1.6.1)
     net-imap (0.3.4)
       date
-      net-protoco
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
