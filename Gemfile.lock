@@ -127,4 +127,11 @@ GEM
     pg (1.4.6)
     public_suffix (5.0.1)
     puma (6.1.1)
-      nio4r (
+      nio4r (~> 2.0)
+    racc (1.6.2)
+    rack (2.2.6.3)
+    rack-mini-profiler (3.0.0)
+      rack (>= 1.2.0)
+    rack-test (2.0.2)
+      rack (>= 1.3)
+ 
