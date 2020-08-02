@@ -143,4 +143,9 @@ GEM
       actionview (= 7.0.4.2)
       activejob (= 7.0.4.2)
       activemodel (= 7.0.4.2)
-      activerecord (=
+      activerecord (= 7.0.4.2)
+      activestorage (= 7.0.4.2)
+      activesupport (= 7.0.4.2)
+      bundler (>= 1.15.0)
+      railties (= 7.0.4.2)
+    rails
