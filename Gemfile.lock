@@ -158,4 +158,10 @@ GEM
       activesupport (= 7.0.4.2)
       method_source
       rake (>= 12.2)
-  
+      thor (~> 1.0)
+      zeitwerk (~> 2.5)
+    rake (13.0.6)
+    redis (5.0.6)
+      redis-client (>= 0.9.0)
+    redis-client (0.13.0)
+      connection_pool
