@@ -165,3 +165,9 @@ GEM
       redis-client (>= 0.9.0)
     redis-client (0.13.0)
       connection_pool
+    regexp_parser (2.7.0)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.8.1)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>
