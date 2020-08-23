@@ -195,4 +195,10 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     web-console (4.2.0)
-      actionview (>= 6.
+      actionview (>= 6.0.0)
+      activemodel (>= 6.0.0)
+      bindex (>= 0.4.0)
+      railties (>= 6.0.0)
+    webdrivers (5.2.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.
