@@ -230,4 +230,13 @@ DEPENDENCIES
   sidekiq (~> 7.0)
   sprockets-rails
   stimulus-rails
- 
+  turbo-rails
+  tzinfo-data
+  web-console
+  webdrivers
+
+RUBY VERSION
+   ruby 3.2.1p31
+
+BUNDLED WITH
+   2.4.6
