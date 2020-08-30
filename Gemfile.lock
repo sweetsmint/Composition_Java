@@ -216,4 +216,11 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  capy
+  capybara
+  cssbundling-rails
+  debug
+  jbuilder
+  jsbundling-rails
+  pg (~> 1.1)
+  puma (~> 6.1)
+  rack-mini-profiler
