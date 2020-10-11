@@ -13,3 +13,8 @@ For the Docker bits, everything included is an accumulation of [Docker best
 practices](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
 based on building and deploying dozens of assorted Dockerized web apps since
 late 2014.
+
+**This app is using Rails 7.0.4.2 and Ruby 3.2.1**. The screenshot doesn't get
+updated every time I bump the versions:
+
+[!
