@@ -10,4 +10,6 @@ a real world Rails app, but at the same time it's not loaded up with a million
 personal opinions.
 
 For the Docker bits, everything included is an accumulation of [Docker best
-practices](https://nickjanetakis.com/blog/best-pr
+practices](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+based on building and deploying dozens of assorted Dockerized web apps since
+late 2014.
