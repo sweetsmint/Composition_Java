@@ -17,4 +17,4 @@ late 2014.
 **This app is using Rails 7.0.4.2 and Ruby 3.2.1**. The screenshot doesn't get
 updated every time I bump the versions:
 
-[!
+[![Screenshot](.github/docs/screenshot.jpg)](https://github.com/nickjj/docker-rails-example/blob/main/.github/docs/scre
