@@ -22,4 +22,8 @@ updated every time I bump the versions:
 ## Table of contents
 
 - [Tech stack](#tech-stack)
-- [Main changes vs a newly generated Rails app](#main-changes-v
+- [Main changes vs a newly generated Rails app](#main-changes-vs-a-newly-generated-rails-app)
+- [Running this app](#running-this-app)
+- [Files of interest](#files-of-interest)
+  - [`.env`](#env)
+  - [
