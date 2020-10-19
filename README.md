@@ -26,4 +26,6 @@ updated every time I bump the versions:
 - [Running this app](#running-this-app)
 - [Files of interest](#files-of-interest)
   - [`.env`](#env)
-  - [
+  - [`run`](#run)
+- [Running a script to automate renaming the project](#running-a-script-to-automate-renaming-the-project)
+- [Updating dependencie
