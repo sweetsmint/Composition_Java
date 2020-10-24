@@ -30,4 +30,6 @@ updated every time I bump the versions:
 - [Running a script to automate renaming the project](#running-a-script-to-automate-renaming-the-project)
 - [Updating dependencies](#updating-dependencies)
 - [See a way to improve something?](#see-a-way-to-improve-something)
-- [Additional resources](#additional
+- [Additional resources](#additional-resources)
+  - [Learn more about Docker and Ruby on Rails](#learn-more-about-docker-and-ruby-on-rails)
+  - [Deploy to production](#d
