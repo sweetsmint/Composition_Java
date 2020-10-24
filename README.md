@@ -28,4 +28,6 @@ updated every time I bump the versions:
   - [`.env`](#env)
   - [`run`](#run)
 - [Running a script to automate renaming the project](#running-a-script-to-automate-renaming-the-project)
-- [Updating dependencie
+- [Updating dependencies](#updating-dependencies)
+- [See a way to improve something?](#see-a-way-to-improve-something)
+- [Additional resources](#additional
