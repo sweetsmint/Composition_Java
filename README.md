@@ -32,4 +32,9 @@ updated every time I bump the versions:
 - [See a way to improve something?](#see-a-way-to-improve-something)
 - [Additional resources](#additional-resources)
   - [Learn more about Docker and Ruby on Rails](#learn-more-about-docker-and-ruby-on-rails)
-  - [Deploy to production](#d
+  - [Deploy to production](#deploy-to-production)
+- [About the author](#about-the-author)
+
+## Tech stack
+
+If you don't like some of these choices that's no problem
