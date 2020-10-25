@@ -37,4 +37,10 @@ updated every time I bump the versions:
 
 ## Tech stack
 
-If you don't like some of these choices that's no problem
+If you don't like some of these choices that's no problem, you can swap them
+out for something else on your own.
+
+### Back-end
+
+- [PostgreSQL](https://www.postgresql.org/)
+- [Redis](h
