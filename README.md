@@ -43,4 +43,7 @@ out for something else on your own.
 ### Back-end
 
 - [PostgreSQL](https://www.postgresql.org/)
-- [Redis](h
+- [Redis](https://redis.io/)
+- [Sidekiq](https://github.com/mperham/sidekiq)
+- [Action Cable](https://guides.rubyonrails.org/action_cable_overview.html)
+- [ERB
