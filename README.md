@@ -46,4 +46,9 @@ out for something else on your own.
 - [Redis](https://redis.io/)
 - [Sidekiq](https://github.com/mperham/sidekiq)
 - [Action Cable](https://guides.rubyonrails.org/action_cable_overview.html)
-- [ERB
+- [ERB](https://guides.rubyonrails.org/layouts_and_rendering.html)
+
+### Front-end
+
+- [esbuild](https://esbuild.github.io/)
+- [Ho
