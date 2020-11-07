@@ -54,4 +54,8 @@ out for something else on your own.
 - [Hotwire Turbo](https://hotwired.dev/)
 - [StimulusJS](https://stimulus.hotwired.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Heroicon
+- [Heroicons](https://heroicons.com/)
+
+## Main changes vs a newly generated Rails app
+
+Here's a run down on what's different. You can also us
