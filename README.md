@@ -51,4 +51,7 @@ out for something else on your own.
 ### Front-end
 
 - [esbuild](https://esbuild.github.io/)
-- [Ho
+- [Hotwire Turbo](https://hotwired.dev/)
+- [StimulusJS](https://stimulus.hotwired.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Heroicon
