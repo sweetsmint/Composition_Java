@@ -58,4 +58,8 @@ out for something else on your own.
 
 ## Main changes vs a newly generated Rails app
 
-Here's a run down on what's different. You can also us
+Here's a run down on what's different. You can also use this as a guide to
+Dockerize an existing Rails app.
+
+- **Core**:
+    - Use PostgreSQL (`-d postgresql)` as the primary SQL data
