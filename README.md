@@ -62,4 +62,7 @@ Here's a run down on what's different. You can also use this as a guide to
 Dockerize an existing Rails app.
 
 - **Core**:
-    - Use PostgreSQL (`-d postgresql)` as the primary SQL data
+    - Use PostgreSQL (`-d postgresql)` as the primary SQL database
+    - Use Redis as the cache back-end
+    - Use Sidekiq as a background worker through Active Job
+    - Use a standalon
