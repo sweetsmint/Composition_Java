@@ -65,4 +65,7 @@ Dockerize an existing Rails app.
     - Use PostgreSQL (`-d postgresql)` as the primary SQL database
     - Use Redis as the cache back-end
     - Use Sidekiq as a background worker through Active Job
-    - Use a standalon
+    - Use a standalone Action Cable process
+- **App Features**:
+    - Add `pages` controller with a home page
+    - Add `up` controller with 2 he
