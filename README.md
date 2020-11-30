@@ -71,4 +71,6 @@ Dockerize an existing Rails app.
     - Add `up` controller with 2 health check related actions
 - **Config**:
     - Log to STDOUT so that Docker can consume and deal with log output 
-    - Credentials are 
+    - Credentials are removed (secrets are loaded in with an `.env` file)
+    - Extract a bunch of configuration settings into environment variables
+    - Rewri
