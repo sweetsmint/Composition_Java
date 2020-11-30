@@ -68,4 +68,7 @@ Dockerize an existing Rails app.
     - Use a standalone Action Cable process
 - **App Features**:
     - Add `pages` controller with a home page
-    - Add `up` controller with 2 he
+    - Add `up` controller with 2 health check related actions
+- **Config**:
+    - Log to STDOUT so that Docker can consume and deal with log output 
+    - Credentials are 
