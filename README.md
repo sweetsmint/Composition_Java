@@ -73,4 +73,6 @@ Dockerize an existing Rails app.
     - Log to STDOUT so that Docker can consume and deal with log output 
     - Credentials are removed (secrets are loaded in with an `.env` file)
     - Extract a bunch of configuration settings into environment variables
-    - Rewri
+    - Rewrite `config/database.yml` to use environment variables
+    - `.yarnc` sets a custom `node_modules/` directory
+    - `config/initializers/rack_min
