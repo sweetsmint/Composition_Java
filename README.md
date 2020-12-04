@@ -75,4 +75,5 @@ Dockerize an existing Rails app.
     - Extract a bunch of configuration settings into environment variables
     - Rewrite `config/database.yml` to use environment variables
     - `.yarnc` sets a custom `node_modules/` directory
-    - `config/initializers/rack_min
+    - `config/initializers/rack_mini_profiler.rb` to enable profiling Hotwire Turbo Drive
+    - `config/initializers/assets.rb` references a custom `node_modul
