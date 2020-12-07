@@ -76,4 +76,6 @@ Dockerize an existing Rails app.
     - Rewrite `config/database.yml` to use environment variables
     - `.yarnc` sets a custom `node_modules/` directory
     - `config/initializers/rack_mini_profiler.rb` to enable profiling Hotwire Turbo Drive
-    - `config/initializers/assets.rb` references a custom `node_modul
+    - `config/initializers/assets.rb` references a custom `node_modules/` directory
+    - `config/routes.rb` has Sidekiq's dashboard ready to be used but commented out for safety
+    - `Procifile.dev` has been removed 
