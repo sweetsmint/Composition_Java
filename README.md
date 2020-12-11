@@ -81,4 +81,7 @@ Dockerize an existing Rails app.
     - `Procifile.dev` has been removed since Docker Compose handles this for us
 - **Assets**:
     - Use esbuild (`-j esbuild`) and TailwindCSS (`-c tailwind`)
-    - Add 
+    - Add `postcss-import` support for `tailwindcss` by using the `--postcss` flag
+    - Add ActiveStorage JavaScript package
+- **Public:**
+    - Custom `5
