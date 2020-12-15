@@ -84,4 +84,7 @@ Dockerize an existing Rails app.
     - Add `postcss-import` support for `tailwindcss` by using the `--postcss` flag
     - Add ActiveStorage JavaScript package
 - **Public:**
-    - Custom `5
+    - Custom `502.html` and `maintenance.html` pages
+    - Generate favicons using modern best practices
+
+Besides the Rails app itself, a number of new Doc
