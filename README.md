@@ -94,4 +94,6 @@ GitHub Actions have been set up.
 ## Running this app
 
 You'll need to have [Docker installed](https://docs.docker.com/get-docker/).
-It's available on Windows, ma
+It's available on Windows, macOS and most distros of Linux. If you're new to
+Docker and want to learn it in detail check out the [additional resources
+links](#learn-mo
