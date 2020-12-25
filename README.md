@@ -87,4 +87,6 @@ Dockerize an existing Rails app.
     - Custom `502.html` and `maintenance.html` pages
     - Generate favicons using modern best practices
 
-Besides the Rails app itself, a number of new Doc
+Besides the Rails app itself, a number of new Docker related files were added
+to the project which would be any file having `*docker*` in its name. Also
+GitHub Actions have been set up.
