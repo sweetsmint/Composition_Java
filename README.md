@@ -100,3 +100,5 @@ links](#learn-more-about-docker-and-ruby-on-rails) near the bottom of this
 README.
 
 You'll also need to enable Docker Compose v2 support if you're using Docker
+Desktop. On native Linux without Docker Desktop you can [install it as a plugin
+to Docker](https://docs.docker.com/compose/install/linux/). 
