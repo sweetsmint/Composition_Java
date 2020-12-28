@@ -101,4 +101,6 @@ README.
 
 You'll also need to enable Docker Compose v2 support if you're using Docker
 Desktop. On native Linux without Docker Desktop you can [install it as a plugin
-to Docker](https://docs.docker.com/compose/install/linux/). 
+to Docker](https://docs.docker.com/compose/install/linux/). It's been generally
+available for a while now and very stable. This project uses a specific Docker
+Compose profiles feature that only works 
