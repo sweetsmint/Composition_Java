@@ -96,4 +96,7 @@ GitHub Actions have been set up.
 You'll need to have [Docker installed](https://docs.docker.com/get-docker/).
 It's available on Windows, macOS and most distros of Linux. If you're new to
 Docker and want to learn it in detail check out the [additional resources
-links](#learn-mo
+links](#learn-more-about-docker-and-ruby-on-rails) near the bottom of this
+README.
+
+You'll also need to enable Docker Compose v2 support if you're using Docker
