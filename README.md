@@ -113,3 +113,8 @@ these commands for PowerShell if you want.
 
 #### Clone this repo anywhere you want and move into the directory:
 
+```sh
+git clone https://github.com/nickjj/docker-rails-example hellorails
+cd hellorails
+
+# Optionally checkout a specific tag, 
