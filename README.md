@@ -107,4 +107,5 @@ Compose profiles feature that only works with Docker Compose v2.
 
 If you're using Windows, it will be expected that you're following along inside
 of [WSL or WSL
-2](https://nickjaneta
+2](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-2-docker-desktop-and-more).
+That's because we're going to be running shell 
