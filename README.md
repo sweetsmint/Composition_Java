@@ -123,4 +123,10 @@ cd hellorails
 #### Copy an example .env file because the real one is git ignored:
 
 ```sh
-cp .env.exa
+cp .env.example .env
+```
+
+#### Build everything:
+
+*The first time you run this it's going to take 5-10 minutes depending on your
+inte
