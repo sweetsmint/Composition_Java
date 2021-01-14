@@ -129,4 +129,5 @@ cp .env.example .env
 #### Build everything:
 
 *The first time you run this it's going to take 5-10 minutes depending on your
-inte
+internet connection speed and computer's hardware specs. That's because it's
+going to download a few Docker images and build the
