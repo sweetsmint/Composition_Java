@@ -130,4 +130,10 @@ cp .env.example .env
 
 *The first time you run this it's going to take 5-10 minutes depending on your
 internet connection speed and computer's hardware specs. That's because it's
-going to download a few Docker images and build the
+going to download a few Docker images and build the Ruby + Yarn dependencies.*
+
+```sh
+docker compose up --build
+```
+
+Now that everything is built and running we can treat it like any othe
