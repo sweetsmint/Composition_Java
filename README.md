@@ -140,4 +140,7 @@ Now that everything is built and running we can treat it like any other Rails
 app.
 
 Did you receive an error about a port being in use? Chances are it's because
-something on your machine is alre
+something on your machine is already running on port 8000. Check out the docs
+in the `.env` file for the `DOCKER_WEB_PORT` variable to fix this.
+
+Did you rec
