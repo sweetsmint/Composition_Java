@@ -144,4 +144,8 @@ something on your machine is already running on port 8000. Check out the docs
 in the `.env` file for the `DOCKER_WEB_PORT` variable to fix this.
 
 Did you receive a permission denied error? Chances are you're running native
-Linux and your `uid:gid` aren't `1000:1000` (you can verify this by ru
+Linux and your `uid:gid` aren't `1000:1000` (you can verify this by running
+`id`). Check out the docs in the `.env` file to customize the `UID` and `GID`
+variables to fix this.
+
+###
