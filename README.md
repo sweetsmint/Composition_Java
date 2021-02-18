@@ -148,4 +148,11 @@ Linux and your `uid:gid` aren't `1000:1000` (you can verify this by running
 `id`). Check out the docs in the `.env` file to customize the `UID` and `GID`
 variables to fix this.
 
-###
+#### Setup the initial database:
+
+```sh
+# You can run this from a 2nd terminal.
+./run rails db:setup
+```
+
+*We'll go over that `./run` script 
