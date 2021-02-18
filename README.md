@@ -136,4 +136,8 @@ going to download a few Docker images and build the Ruby + Yarn dependencies.*
 docker compose up --build
 ```
 
-Now that everything is built and running we can treat it like any othe
+Now that everything is built and running we can treat it like any other Rails
+app.
+
+Did you receive an error about a port being in use? Chances are it's because
+something on your machine is alre
