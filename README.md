@@ -155,4 +155,13 @@ variables to fix this.
 ./run rails db:setup
 ```
 
-*We'll go over that `./run` script 
+*We'll go over that `./run` script in a bit!*
+
+#### Check it out in a browser:
+
+Visit <http://localhost:8000> in your favorite browser.
+
+#### Running the test suite:
+
+```sh
+# You can run this fro
