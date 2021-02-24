@@ -164,4 +164,9 @@ Visit <http://localhost:8000> in your favorite browser.
 #### Running the test suite:
 
 ```sh
-# You can run this fro
+# You can run this from the same terminal as before.
+./run test
+```
+
+You can also run `./run test -b` with does the same thing but builds your JS
+and CS
