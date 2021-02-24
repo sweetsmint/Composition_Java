@@ -169,4 +169,5 @@ Visit <http://localhost:8000> in your favorite browser.
 ```
 
 You can also run `./run test -b` with does the same thing but builds your JS
-and CS
+and CSS bundles. This could come in handy in fresh environments such as CI
+where your assets haven't changed and you h
