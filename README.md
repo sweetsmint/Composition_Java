@@ -170,4 +170,10 @@ Visit <http://localhost:8000> in your favorite browser.
 
 You can also run `./run test -b` with does the same thing but builds your JS
 and CSS bundles. This could come in handy in fresh environments such as CI
-where your assets haven't changed and you h
+where your assets haven't changed and you haven't visited the page in a
+browser.
+
+#### Stopping everything:
+
+```sh
+# Stop the containers and remove a few Docker related resources associated to t
