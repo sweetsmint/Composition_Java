@@ -176,4 +176,9 @@ browser.
 #### Stopping everything:
 
 ```sh
-# Stop the containers and remove a few Docker related resources associated to t
+# Stop the containers and remove a few Docker related resources associated to this project.
+docker compose down
+```
+
+You can start things up again with `docker compose up` and unlike the first
+time it should only take secon
