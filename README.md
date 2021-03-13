@@ -181,4 +181,9 @@ docker compose down
 ```
 
 You can start things up again with `docker compose up` and unlike the first
-time it should only take secon
+time it should only take seconds.
+
+## Files of interest
+
+I recommend checking out most files and searching the code base for `TODO:`,
+but please review the `
