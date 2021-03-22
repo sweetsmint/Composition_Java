@@ -186,4 +186,5 @@ time it should only take seconds.
 ## Files of interest
 
 I recommend checking out most files and searching the code base for `TODO:`,
-but please review the `
+but please review the `.env` and `run` files before diving into the rest of the
+code and customizing it. Also, you should hold off on changing a
