@@ -187,4 +187,10 @@ time it should only take seconds.
 
 I recommend checking out most files and searching the code base for `TODO:`,
 but please review the `.env` and `run` files before diving into the rest of the
-code and customizing it. Also, you should hold off on changing a
+code and customizing it. Also, you should hold off on changing anything until
+we cover how to customize this example app's name with an automated script
+(coming up next in the docs).
+
+### `.env`
+
+This file is ignored 
