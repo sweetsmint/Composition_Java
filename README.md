@@ -193,4 +193,5 @@ we cover how to customize this example app's name with an automated script
 
 ### `.env`
 
-This file is ignored 
+This file is ignored from version control so it will never be commit. There's a
+number of environment variables defined here that control certain
