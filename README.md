@@ -199,4 +199,11 @@ behavior of the application. Everything is documented there.
 
 Feel free to add new variables as needed. This is where you should put all of
 your secrets as well as configuration that might change depending on your
-environment (specific dev boxes, CI, production
+environment (specific dev boxes, CI, production, etc.).
+
+### `run`
+
+You can run `./run` to get a list of commands and each command has
+documentation in the `run` file itself.
+
+It's a 
