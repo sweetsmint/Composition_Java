@@ -206,4 +206,5 @@ environment (specific dev boxes, CI, production, etc.).
 You can run `./run` to get a list of commands and each command has
 documentation in the `run` file itself.
 
-It's a 
+It's a shell script that has a number of functions defined to help you interact
+with this project. It's basically a `Makefile` except with [less
