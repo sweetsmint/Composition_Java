@@ -208,3 +208,5 @@ documentation in the `run` file itself.
 
 It's a shell script that has a number of functions defined to help you interact
 with this project. It's basically a `Makefile` except with [less
+limitations](https://nickjanetakis.com/blog/replacing-make-with-a-shell-script-for-running-your-projects-tasks).
+For ex
