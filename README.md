@@ -209,4 +209,7 @@ documentation in the `run` file itself.
 It's a shell script that has a number of functions defined to help you interact
 with this project. It's basically a `Makefile` except with [less
 limitations](https://nickjanetakis.com/blog/replacing-make-with-a-shell-script-for-running-your-projects-tasks).
-For ex
+For example as a shell script it allows us to pass any arguments to another
+program.
+
+This comes in handy to run various Docker commands because sometimes
