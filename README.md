@@ -212,4 +212,6 @@ limitations](https://nickjanetakis.com/blog/replacing-make-with-a-shell-script-f
 For example as a shell script it allows us to pass any arguments to another
 program.
 
-This comes in handy to run various Docker commands because sometimes
+This comes in handy to run various Docker commands because sometimes these
+commands can be a bit long to type. Feel free to add as many convenience
+functions as you want. This file's purpose is to make y
