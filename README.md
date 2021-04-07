@@ -217,4 +217,7 @@ commands can be a bit long to type. Feel free to add as many convenience
 functions as you want. This file's purpose is to make your experience better!
 
 *If you get tired of typing `./run` you can always create a shell alias with
-`alias run=./run` in your `~/.b
+`alias run=./run` in your `~/.bash_aliases` or equivalent file. Then you'll be
+able to run `run` instead of `./run`.*
+
+## Running a script to automate renaming th
