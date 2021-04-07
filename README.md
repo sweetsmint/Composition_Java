@@ -214,4 +214,7 @@ program.
 
 This comes in handy to run various Docker commands because sometimes these
 commands can be a bit long to type. Feel free to add as many convenience
-functions as you want. This file's purpose is to make y
+functions as you want. This file's purpose is to make your experience better!
+
+*If you get tired of typing `./run` you can always create a shell alias with
+`alias run=./run` in your `~/.b
