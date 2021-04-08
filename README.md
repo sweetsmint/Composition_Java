@@ -223,4 +223,7 @@ able to run `run` instead of `./run`.*
 ## Running a script to automate renaming the project
 
 The app is named `hello` right now but chances are your app will be a different
-name. Since the app is already created we'll
+name. Since the app is already created we'll need to do a find / replace on a
+few variants of the string "hello" and update a few Docker related resources.
+
+And by we I mean I c
