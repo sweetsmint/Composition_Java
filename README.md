@@ -220,4 +220,7 @@ functions as you want. This file's purpose is to make your experience better!
 `alias run=./run` in your `~/.bash_aliases` or equivalent file. Then you'll be
 able to run `run` instead of `./run`.*
 
-## Running a script to automate renaming th
+## Running a script to automate renaming the project
+
+The app is named `hello` right now but chances are your app will be a different
+name. Since the app is already created we'll
