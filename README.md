@@ -234,4 +234,8 @@ heavy lifting for you. All you have to do is run the script below.
 ```sh
 # The script takes 2 arguments.
 #
-# The first one is the lower case version of your
+# The first one is the lower case version of your app's name, such as myapp or
+# my_app depending on your preference.
+#
+# The second one is used for your app's module name. For example if you used
+#
