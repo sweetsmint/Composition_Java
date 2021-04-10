@@ -229,4 +229,9 @@ few variants of the string "hello" and update a few Docker related resources.
 And by we I mean I created a zero dependency shell script that does all of the
 heavy lifting for you. All you have to do is run the script below.
 
-#### Run the 
+#### Run the rename-project script included in this repo:
+
+```sh
+# The script takes 2 arguments.
+#
+# The first one is the lower case version of your
