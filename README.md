@@ -238,4 +238,9 @@ heavy lifting for you. All you have to do is run the script below.
 # my_app depending on your preference.
 #
 # The second one is used for your app's module name. For example if you used
-#
+# myapp or my_app for the first argument you would want to use MyApp here.
+bin/rename-project myapp MyApp
+```
+
+The [bin/rename-project
+script]
