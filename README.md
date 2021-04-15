@@ -246,4 +246,8 @@ The [bin/rename-project
 script](https://github.com/nickjj/docker-rails-example/blob/main/bin/rename-project)
 is going to:
 
-- Remove any Docker resources for y
+- Remove any Docker resources for your current project
+- Perform a number of find / replace actions
+- Optionally initialize a new git repo for you
+
+*Afterwards you 
