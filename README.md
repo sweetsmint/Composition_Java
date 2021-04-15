@@ -243,4 +243,7 @@ bin/rename-project myapp MyApp
 ```
 
 The [bin/rename-project
-script]
+script](https://github.com/nickjj/docker-rails-example/blob/main/bin/rename-project)
+is going to:
+
+- Remove any Docker resources for y
