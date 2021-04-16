@@ -250,4 +250,5 @@ is going to:
 - Perform a number of find / replace actions
 - Optionally initialize a new git repo for you
 
-*Afterwards you 
+*Afterwards you can delete this script because its only purpose is to assist in
+helping you change this project's name without depending on 
