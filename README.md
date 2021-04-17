@@ -251,4 +251,7 @@ is going to:
 - Optionally initialize a new git repo for you
 
 *Afterwards you can delete this script because its only purpose is to assist in
-helping you change this project's name without depending on 
+helping you change this project's name without depending on any complicated
+project generator tools or 3rd party dependencies.*
+
+If you're not comfy running the script or it doesn't work for whatever reason
