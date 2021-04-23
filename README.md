@@ -257,4 +257,9 @@ project generator tools or 3rd party dependencies.*
 If you're not comfy running the script or it doesn't work for whatever reasons
 you can [check it
 out](https://github.com/nickjj/docker-rails-example/blob/main/bin/rename-project)
-and perform the actions manually. It's 
+and perform the actions manually. It's mostly running a find / replace across
+files and then renaming a few directories and files.
+
+#### Start and setup the project:
+
+This w
