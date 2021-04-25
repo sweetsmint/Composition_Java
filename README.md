@@ -270,4 +270,8 @@ Docker.
 docker compose up --build
 
 # Then in a 2nd terminal once it's up and ready.
-./run rails db:s
+./run rails db:setup
+```
+
+*If you get an error upping the project related to `RuntimeError: invalid
+bytecode` then you have old `tmp/` files sit
