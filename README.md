@@ -263,4 +263,11 @@ files and then renaming a few directories and files.
 #### Start and setup the project:
 
 This won't take as long as before because Docker can re-use most things. We'll
-also need to setup our database since a new one will be 
+also need to setup our database since a new one will be created for us by
+Docker.
+
+```sh
+docker compose up --build
+
+# Then in a 2nd terminal once it's up and ready.
+./run rails db:s
