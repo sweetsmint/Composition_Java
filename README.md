@@ -278,4 +278,7 @@ bytecode` then you have old `tmp/` files sitting around related to the old
 project name, you can run `./run clean` to clear all temporary files and fix
 the error.*
 
-#### Sanity 
+#### Sanity check to make sure the tests still pass:
+
+It's always a good idea to make sure things are in a working state before
+adding custom 
