@@ -281,4 +281,11 @@ the error.*
 #### Sanity check to make sure the tests still pass:
 
 It's always a good idea to make sure things are in a working state before
-adding custom 
+adding custom changes.
+
+```sh
+# You can run this from the same terminal as before.
+./run test
+```
+
+If everything passes now you can optionally `git add -A && git
