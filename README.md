@@ -288,4 +288,6 @@ adding custom changes.
 ./run test
 ```
 
-If everything passes now you can optionally `git add -A && git
+If everything passes now you can optionally `git add -A && git commit -m
+"Initial commit"` and start customizing your app. Alternatively you can wait
+until you develop more of your app before committin
