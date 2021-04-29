@@ -294,4 +294,8 @@ until you develop more of your app before committing anything. It's up to you!
 
 #### Tying up a few loose ends:
 
-You'll probably want to create a fresh `CHANGELOG.md` file for your proje
+You'll probably want to create a fresh `CHANGELOG.md` file for your project. I
+like following the style guide at <https://keepachangelog.com/> but feel free
+to use whichever style you prefer.
+
+Since this project is MIT 
