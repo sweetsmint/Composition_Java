@@ -298,4 +298,6 @@ You'll probably want to create a fresh `CHANGELOG.md` file for your project. I
 like following the style guide at <https://keepachangelog.com/> but feel free
 to use whichever style you prefer.
 
-Since this project is MIT 
+Since this project is MIT licensed you should keep my name and email address in
+the `LICENSE` file to adhere to that license's agreement, but you can also add
+your name and
