@@ -300,4 +300,7 @@ to use whichever style you prefer.
 
 Since this project is MIT licensed you should keep my name and email address in
 the `LICENSE` file to adhere to that license's agreement, but you can also add
-your name and
+your name and email on a new line.
+
+If you happen to base your app off this example app or write about any of the
+code in this project it would be rad i
