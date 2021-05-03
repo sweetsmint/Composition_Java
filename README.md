@@ -305,4 +305,9 @@ your name and email on a new line.
 If you happen to base your app off this example app or write about any of the
 code in this project it would be rad if you could credit this repo by linking
 to it. If you want to reference me directly please link to my site at
-<https://nickjanetakis.com>. You don't have to d
+<https://nickjanetakis.com>. You don't have to do this, but it would be very
+much appreciated!
+
+## Updating dependencies
+
+Let's say you've customized your app and i
