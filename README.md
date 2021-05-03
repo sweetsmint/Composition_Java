@@ -310,4 +310,7 @@ much appreciated!
 
 ## Updating dependencies
 
-Let's say you've customized your app and i
+Let's say you've customized your app and it's time to make a change to your
+`Gemfile` or `package.json` file.
+
+Without Docker you'd normally run `bundle install` or `yarn install`. 
