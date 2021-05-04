@@ -315,4 +315,9 @@ Let's say you've customized your app and it's time to make a change to your
 
 Without Docker you'd normally run `bundle install` or `yarn install`. With
 Docker it's basically the same thing and since these commands are in our
-`Dockerfile` we can get away with doing a `docke
+`Dockerfile` we can get away with doing a `docker compose build` but don't run
+that just yet.
+
+#### In development:
+
+You can run `./run bundle:outdated` or `./run yarn:outdated` t
