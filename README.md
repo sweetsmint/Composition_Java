@@ -320,4 +320,6 @@ that just yet.
 
 #### In development:
 
-You can run `./run bundle:outdated` or `./run yarn:outdated` t
+You can run `./run bundle:outdated` or `./run yarn:outdated` to get a list of
+outdated dependencies based on what you currently have installed. Once you've
+figured out what you want to update, go make those updates 
