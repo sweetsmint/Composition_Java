@@ -325,4 +325,6 @@ outdated dependencies based on what you currently have installed. Once you've
 figured out what you want to update, go make those updates in your `Gemfile`
 and / or `package.json` file.
 
-Then to update your dependencies you can run `./run bundle:instal
+Then to update your dependencies you can run `./run bundle:install` or `./run
+yarn:install`. That'll make sure any lock files get copied from Docker's image
+(thanks to volumes) into your code repo an
