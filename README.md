@@ -322,4 +322,7 @@ that just yet.
 
 You can run `./run bundle:outdated` or `./run yarn:outdated` to get a list of
 outdated dependencies based on what you currently have installed. Once you've
-figured out what you want to update, go make those updates 
+figured out what you want to update, go make those updates in your `Gemfile`
+and / or `package.json` file.
+
+Then to update your dependencies you can run `./run bundle:instal
