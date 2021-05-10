@@ -332,4 +332,10 @@ version control like usual.
 
 Alternatively for updating your gems based on specific version ranges defined
 in your `Gemfile` you can run `./run bundle:update` which will install the
-latest versions of your gems and then write ou
+latest versions of your gems and then write out a new lock file.
+
+You can check out the `run` file to see what these commands do in more detail.
+
+#### In CI:
+
+You'll want to 
