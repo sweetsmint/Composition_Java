@@ -338,4 +338,5 @@ You can check out the `run` file to see what these commands do in more detail.
 
 #### In CI:
 
-You'll want to 
+You'll want to run `docker compose build` since it will use any existing lock
+files if they exist. You can also check out the complete CI test 
