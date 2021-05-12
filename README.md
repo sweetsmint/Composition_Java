@@ -344,4 +344,6 @@ the `run` file under the `ci:test` function.
 
 #### In production:
 
-This is usually a non-issue since you'll 
+This is usually a non-issue since you'll be pulling down pre-built images from
+a Docker registry but if you decide to build your Docker images directly on
+your server you could run `docker 
