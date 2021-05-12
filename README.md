@@ -346,4 +346,9 @@ the `run` file under the `ci:test` function.
 
 This is usually a non-issue since you'll be pulling down pre-built images from
 a Docker registry but if you decide to build your Docker images directly on
-your server you could run `docker 
+your server you could run `docker compose build` as part of your deploy
+pipeline.
+
+## See a way to improve something?
+
+If you see anything that could be improved please open an is
