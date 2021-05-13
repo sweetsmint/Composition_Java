@@ -351,4 +351,9 @@ pipeline.
 
 ## See a way to improve something?
 
-If you see anything that could be improved please open an is
+If you see anything that could be improved please open an issue or start a PR.
+Any help is much appreciated!
+
+## Additional resources
+
+Now that you have your app ready to go, it's time to 
