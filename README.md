@@ -356,4 +356,6 @@ Any help is much appreciated!
 
 ## Additional resources
 
-Now that you have your app ready to go, it's time to 
+Now that you have your app ready to go, it's time to build something cool! If
+you want to learn more about Docker, Rails and deploying a Rails app here's a
+couple of free and paid resources. 
