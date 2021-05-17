@@ -365,4 +365,9 @@ couple of free and paid resources. There's Google too!
 #### Official documentation 
 
 - <https://docs.docker.com/>
-- <https://guides.rub
+- <https://guides.rubyonrails.org/>
+
+#### Courses / Screencasts
+
+- [https://diveintodocker.com](https://diveintodocker.com?ref=docker-rails-example)
+  is a
