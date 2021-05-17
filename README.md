@@ -358,4 +358,11 @@ Any help is much appreciated!
 
 Now that you have your app ready to go, it's time to build something cool! If
 you want to learn more about Docker, Rails and deploying a Rails app here's a
-couple of free and paid resources. 
+couple of free and paid resources. There's Google too!
+
+### Learn more about Docker and Ruby on Rails
+
+#### Official documentation 
+
+- <https://docs.docker.com/>
+- <https://guides.rub
