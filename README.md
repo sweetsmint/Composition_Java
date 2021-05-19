@@ -375,4 +375,6 @@ couple of free and paid resources. There's Google too!
 
 ### Deploy to production
 
-I'm creating an in-depth course related to depl
+I'm creating an in-depth course related to deploying Dockerized web apps. If
+you want to get notified when it launches with a discount and potentially get
+free videos while the course 
