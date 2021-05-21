@@ -377,4 +377,9 @@ couple of free and paid resources. There's Google too!
 
 I'm creating an in-depth course related to deploying Dockerized web apps. If
 you want to get notified when it launches with a discount and potentially get
-free videos while the course 
+free videos while the course is being developed then [sign up here to get
+notified](https://nickjanetakis.com/courses/deploy-to-production).
+
+## About the author
+
+- 
