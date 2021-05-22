@@ -384,4 +384,6 @@ notified](https://nickjanetakis.com/courses/deploy-to-production).
 
 - Nick Janetakis | <https://nickjanetakis.com> | [@nickjanetakis](https://twitter.com/nickjanetakis)
 
-I'm a self taug
+I'm a self taught developer and have been freelancing for the last ~20 years.
+You can read about everything I've learned along the way on my site at
+[https:
