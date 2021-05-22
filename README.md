@@ -382,4 +382,6 @@ notified](https://nickjanetakis.com/courses/deploy-to-production).
 
 ## About the author
 
-- 
+- Nick Janetakis | <https://nickjanetakis.com> | [@nickjanetakis](https://twitter.com/nickjanetakis)
+
+I'm a self taug
