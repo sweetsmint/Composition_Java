@@ -386,4 +386,6 @@ notified](https://nickjanetakis.com/courses/deploy-to-production).
 
 I'm a self taught developer and have been freelancing for the last ~20 years.
 You can read about everything I've learned along the way on my site at
-[https:
+[https://nickjanetakis.com](https://nickjanetakis.com/).
+
+There's hundreds of [blog posts](https://nickjanetakis.com/blog/) and a
