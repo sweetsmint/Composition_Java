@@ -7,4 +7,6 @@ class UpController < ApplicationController
     RedisConn.current.ping
     ActiveRecord::Base.connection.execute("SELECT 1")
 
-    head
+    head :ok
+  end
+end
