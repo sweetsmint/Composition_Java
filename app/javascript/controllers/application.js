@@ -1,3 +1,7 @@
 import { Application } from "@hotwired/stimulus"
 
-const application 
+const application = Application.start()
+
+// Configure Stimulus development experience.
+application.debug = false
+window.Stimulus   = application
