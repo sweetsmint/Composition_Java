@@ -3,4 +3,8 @@
 set -e
 
 # Always keep this here as it ensures your latest built assets make their way
-# into your volume persisted publ
+# into your volume persisted public directory.
+cp -r /public /app
+
+# Sprockets will use the first sprockets file it finds not the latest one. We
+# need to delet
