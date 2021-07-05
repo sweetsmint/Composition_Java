@@ -7,4 +7,5 @@ set -e
 cp -r /public /app
 
 # Sprockets will use the first sprockets file it finds not the latest one. We
-# need to delet
+# need to delete all of the old sprockets files except for the one that was
+# last built into the image. That's what the code below does.
