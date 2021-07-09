@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
-require "fil
+require "fileutils"
+
+# path to your application root.
+APP_ROOT = File.expand_path("..", __dir__)
+
+def system!(*args)
+  system(*args) || abort("\n== Command #{ar
