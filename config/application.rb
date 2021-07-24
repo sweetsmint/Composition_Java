@@ -2,4 +2,6 @@ require_relative "boot"
 
 require "rails/all"
 
-# Require the 
+# Require the gems listed in Gemfile, including any gems
+# you've limited to :test, :development, or :production.
+Bundler.require(*
