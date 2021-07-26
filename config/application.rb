@@ -8,4 +8,8 @@ Bundler.require(*Rails.groups)
 
 module Hello
   class Application < Rails::Application
-    # Initialize configuration defaults for originally generated Rails version
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 7.0
+
+    # Log to STDOUT because Docker expects all processes to log here. You could
+    # then col
