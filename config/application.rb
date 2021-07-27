@@ -12,4 +12,6 @@ module Hello
     config.load_defaults 7.0
 
     # Log to STDOUT because Docker expects all processes to log here. You could
-    # then col
+    # then collect logs using journald, syslog or forward them somewhere else.
+    logger           = ActiveSupport::Logger.new(STDOUT)
+    logger.formatter = c
