@@ -17,4 +17,10 @@ module Hello
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
 
-    # Set Redis as the back-end for the ca
+    # Set Redis as the back-end for the cache.
+    config.cache_store = :redis_cache_store, {
+      url: ENV.fetch("REDIS_URL") { "redis://redis:6379/1" },
+      namespace: "cache"
+    }
+
+    # Set Si
