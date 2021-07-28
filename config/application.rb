@@ -14,4 +14,7 @@ module Hello
     # Log to STDOUT because Docker expects all processes to log here. You could
     # then collect logs using journald, syslog or forward them somewhere else.
     logger           = ActiveSupport::Logger.new(STDOUT)
-    logger.formatter = c
+    logger.formatter = config.log_formatter
+    config.logger    = ActiveSupport::TaggedLogging.new(logger)
+
+    # Set Redis as the back-end for the ca
