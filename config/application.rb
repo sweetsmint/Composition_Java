@@ -27,4 +27,5 @@ module Hello
     config.active_job.queue_adapter = :sidekiq
 
     # Mount Action Cable outside the main process or domain.
- 
+    config.action_cable.mount_path = nil
+    config.action_cable.url = ENV.fetch("ACTION_CABLE_FRONTEND_URL") { "ws://localhos
