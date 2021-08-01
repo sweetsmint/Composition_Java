@@ -33,4 +33,6 @@ module Hello
     # Only allow connections to Action Cable from these domains.
     origins = ENV.fetch("ACTION_CABLE_ALLOWED_REQUEST_ORIGINS") { "http:\/\/localhost*" }.split(",")
     origins.map! { |url| /#{url}/ }
-    config.action_cable.allowed_request_origins = origi
+    config.action_cable.allowed_request_origins = origins
+  end
+end
