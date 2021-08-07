@@ -7,3 +7,9 @@ development:
   channel_prefix: "hello_development"
 
 test:
+  <<: *default
+  adapter: "test"
+
+production:
+  <<: *default
+  channel_prefix: "hello_production"
