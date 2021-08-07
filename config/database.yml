@@ -1,2 +1,5 @@
 default: &default
-  
+  adapter: "postgresql"
+  encoding: "unicode"
+  database: "<%= ENV.fetch("POSTGRES_DB") { "hello" } %>"
+  username: "<%= ENV.fetch("POSTGR
