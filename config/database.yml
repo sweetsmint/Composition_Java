@@ -2,4 +2,6 @@ default: &default
   adapter: "postgresql"
   encoding: "unicode"
   database: "<%= ENV.fetch("POSTGRES_DB") { "hello" } %>"
-  username: "<%= ENV.fetch("POSTGR
+  username: "<%= ENV.fetch("POSTGRES_USER") { "hello" } %>"
+  password: "<%= ENV.fetch("POSTGRES_PASSWORD") { "password" } %>"
+  host: "<%= ENV.fetch("POSTGRES_HOST") { 
