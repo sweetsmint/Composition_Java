@@ -45,4 +45,7 @@ Rails.application.configure do
   config.active_support.deprecation = :log
 
   # Raise exceptions for disallowed deprecations.
-  config.active_support.disallowed_depre
+  config.active_support.disallowed_deprecation = :raise
+
+  # Tell Active Support which deprecation messages to disallow.
+  config.active_support.disallowed_deprecat
