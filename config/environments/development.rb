@@ -60,4 +60,9 @@ Rails.application.configure do
   config.assets.digest = false
 
   # Suppress logger output for asset requests.
-  config.assets.quiet 
+  config.assets.quiet = true
+
+  # Raises error for missing translations.
+  # config.i18n.raise_on_missing_translations = true
+
+  # Annotate rendered view wit
