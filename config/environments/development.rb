@@ -71,4 +71,7 @@ Rails.application.configure do
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 
-  # Comma separated list of IP addresses / CIDRs that 
+  # Comma separated list of IP addresses / CIDRs that can use the web-console
+  # which is invoked with `console` in a controller or <% console %> in a view.
+  #
+  # Docker supports a bunch
