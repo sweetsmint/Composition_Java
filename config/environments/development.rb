@@ -74,4 +74,6 @@ Rails.application.configure do
   # Comma separated list of IP addresses / CIDRs that can use the web-console
   # which is invoked with `console` in a controller or <% console %> in a view.
   #
-  # Docker supports a bunch
+  # Docker supports a bunch of ranges so let's just support everything. This
+  # isn't insecure due to only running in development.
+  config.web_console.allowed_i
