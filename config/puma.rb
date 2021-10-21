@@ -10,4 +10,6 @@ environment ENV.fetch("RAILS_ENV") { "production" }
 threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }
 threads threads_count, threads_count
 
-# Specifies the number of `workers` to boot in clustere
+# Specifies the number of `workers` to boot in clustered mode.
+# Workers are forked web server processes. If using threads and workers together
+# the concurrency of the application would be m
