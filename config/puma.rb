@@ -14,4 +14,7 @@ threads threads_count, threads_count
 # Workers are forked web server processes. If using threads and workers together
 # the concurrency of the application would be max `threads` * `workers`.
 # Workers do not work on JRuby or Windows (both of which do not support
-# processes). It defaults to the num
+# processes). It defaults to the number of (virtual cores * 2).
+workers = ENV.fetch("WEB_CONCURRENCY") { Etc.nprocessors * 2 }
+
+# Specifies the `worker_timeout` threshold that Puma 
