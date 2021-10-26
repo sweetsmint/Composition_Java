@@ -17,4 +17,6 @@ threads threads_count, threads_count
 # processes). It defaults to the number of (virtual cores * 2).
 workers = ENV.fetch("WEB_CONCURRENCY") { Etc.nprocessors * 2 }
 
-# Specifies the `worker_timeout` threshold that Puma 
+# Specifies the `worker_timeout` threshold that Puma will use to wait before
+# terminating a worker in development environments.
+worker_timeout 3600 if ENV.fetch("RAILS_ENV", "developmen
