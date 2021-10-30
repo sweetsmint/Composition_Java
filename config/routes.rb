@@ -2,4 +2,7 @@ Rails.application.routes.draw do
   root to: "pages#home"
 
   get "/up/", to: "up#index", as: :up
-  get "/up/databases", to: "up#databases", as: :up_
+  get "/up/databases", to: "up#databases", as: :up_databases
+
+  # Sidekiq has a web dashboard which you can enable below. It's turned off by
+  # default because you very likely w
