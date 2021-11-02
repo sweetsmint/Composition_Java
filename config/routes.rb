@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   #
   # Uncomment the 2 lines below to enable the dashboard WITHOUT authentication,
   # but be careful because even anonymous web visitors will be able to see it!
-  # require "sid
+  # require "sidekiq/web"
+  # mount Sidekiq::Web => "/sidekiq"
+  #
+  # If you add Devise to this project and happen to have an admin? attrib
