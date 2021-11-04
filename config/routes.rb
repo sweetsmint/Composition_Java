@@ -18,4 +18,8 @@ Rails.application.routes.draw do
   # the dashboard if you're an admin. Feel free to adjust things as needed.
   # require "sidekiq/web"
   # authenticate :user, lambda { |u| u.admin? } do
-  #   mount Sidekiq::Web 
+  #   mount Sidekiq::Web => "/sidekiq"
+  # end
+
+  # Learn more about this file at: https://guides.rubyonrails.org/routing.html
+end
