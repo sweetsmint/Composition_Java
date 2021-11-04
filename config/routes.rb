@@ -15,4 +15,7 @@ Rails.application.routes.draw do
   #
   # If you add Devise to this project and happen to have an admin? attribute
   # on your user you can uncomment the 4 lines below to only allow access to
-  # the dashboard if you're an admin. Feel
+  # the dashboard if you're an admin. Feel free to adjust things as needed.
+  # require "sidekiq/web"
+  # authenticate :user, lambda { |u| u.admin? } do
+  #   mount Sidekiq::Web 
