@@ -110,3 +110,13 @@ services:
     profiles: ["cable"]
 
   js:
+    <<: *default-assets
+    command: "yarn build"
+
+  css:
+    <<: *default-assets
+    command: "yarn build:css"
+
+volumes:
+  postgres: {}
+  redis: {}
