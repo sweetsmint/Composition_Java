@@ -8,4 +8,10 @@
     "esbuild": "0.17.11",
     "postcss": "8.4.21",
     "postcss-import": "15.1.0",
-    "tailwindcss
+    "tailwindcss": "3.2.7"
+  },
+  "scripts": {
+    "build": "./run yarn:build",
+    "build:css": "./run yarn:build:css"
+  }
+}
