@@ -1,0 +1,73 @@
+
+#!/usr/bin/env bash
+
+set -o errexit
+set -o pipefail
+
+DC="${DC:-exec}"
+
+# If we're running in CI we need to disable TTY allocation for docker compose
+# commands that enable it by default, such as exec and run.
+TTY=""
+if [[ ! -t 1 ]]; then
+  TTY="-T"
+fi
+
+# -----------------------------------------------------------------------------
+# Helper functions start with _ and aren't listed in this script's help menu.
+# -----------------------------------------------------------------------------
+
+function _dc {
+  docker compose "${DC}" ${TTY} "${@}"
+}
+
+function _build_run_down {
+  docker compose build
+  docker compose run ${TTY} "${@}"
+  docker compose down
+}
+
+# -----------------------------------------------------------------------------
+
+function cmd {
+  # Run any command you want in the web container
+  _dc web "${@}"
+}
+
+function rails {
+  # Run any Rails commands
+  cmd rails "${@}"
+}
+
+function test {
+  # Run your Rails tests, use `test -b` to first rebuild your JS and CSS
+  local run_build="${1:-}"
+  local test_command="rails test"
+
+  if [ "${run_build}" = "-b" ]; then
+    test_command="yarn build && yarn build:css && ${test_command}"
+  fi
+
+  _dc -e "RAILS_ENV=test" js bash -c "${test_command}"
+}
+
+function shell {
+  # Start a shell session in the web container
+  cmd bash "${@}"
+}
+
+function psql {
+  # Connect to PostgreSQL with psql
+  # shellcheck disable=SC1091
+  . .env
+ _dc postgres psql -U "${POSTGRES_USER}" "${@}"
+}
+
+function redis-cli {
+  # Connect to Redis with redis-cli
+  _dc redis redis-cli "${@}"
+}
+
+function hadolint {
+  # Lint Dockerfile with hadolint
+  docker container run --rm -i \
