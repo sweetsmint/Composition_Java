@@ -8,4 +8,6 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get up" do
     get up_url
-    asser
+    assert_response :success
+  end
+end
