@@ -9,4 +9,5 @@
 
 "@esbuild/android-arm@0.17.11":
   version "0.17.11"
-  resolved "https://
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.17.11.tgz#f3fc768235aecbeb840d0049fdf13cd28592105f"
+  integrity sha5
