@@ -21,3 +21,7 @@
   version "0.17.11"
   resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.17.11.tgz#0e8c78d94d5759a48521dbfd83189d2ed3499a16"
   integrity sha512-pJ950bNKgzhkGNO3Z9TeHzIFtEyC2GDQL3wxkMApDEghYx5Qers84UTNc1bAxWbRkuJOgmOha5V0WUeh8G+YGw==
+
+"@esbuild/darwin-x64@0.17.11":
+  version "0.17.11"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.17.11.tgz
