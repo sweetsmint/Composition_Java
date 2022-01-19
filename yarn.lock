@@ -24,4 +24,5 @@
 
 "@esbuild/darwin-x64@0.17.11":
   version "0.17.11"
-  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.17.11.tgz
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.17.11.tgz#2405cfdf70eb961c7cf973463ca7263dc2004c88"
+  integrity sha512-iB0dQkIHXyczK3BZtzw1tqegf0F0Ab5texX2TvMQjiJIWXAfM4FQl7D909YfXWnB92OQz4ivBYQ2RlxBJrM
