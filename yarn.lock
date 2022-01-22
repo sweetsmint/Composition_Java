@@ -39,4 +39,5 @@
 
 "@esbuild/linux-arm64@0.17.11":
   version "0.17.11"
-  resolv
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.17.11.tgz#2bfb93d0809ec2357c12ebb27736b750c9ae0aa5"
+  integrity sha512-Qxth3gsW
