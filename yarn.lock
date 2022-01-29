@@ -45,4 +45,7 @@
 "@esbuild/linux-arm@0.17.11":
   version "0.17.11"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-arm/-/linux-arm-0.17.11.tgz#e56fb3b76828317a704f4a167c5bd790fe5314e7"
-  integrity sha512-M
+  integrity sha512-M9iK/d4lgZH0U5M1R2p2gqhPV/7JPJcRz+8O8GBKVgqndTzydQ7B2XGDbxtbvFkvIs53uXTobOhv+RyaqhUiMg==
+
+"@esbuild/linux-ia32@0.17.11":
+  version
