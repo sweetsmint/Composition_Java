@@ -48,4 +48,5 @@
   integrity sha512-M9iK/d4lgZH0U5M1R2p2gqhPV/7JPJcRz+8O8GBKVgqndTzydQ7B2XGDbxtbvFkvIs53uXTobOhv+RyaqhUiMg==
 
 "@esbuild/linux-ia32@0.17.11":
-  version
+  version "0.17.11"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.17.11.tgz#59fa1c49b271793d14eb5effc757e8c0d
