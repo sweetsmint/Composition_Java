@@ -60,4 +60,8 @@
 "@esbuild/linux-mips64el@0.17.11":
   version "0.17.11"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.17.11.tgz#0e18ca039dc7e4645efd8edc1b10952933eb6b1b"
-  integrity sha512-cGeGNdQxqY8qJwlYH1BP6rjIIiEcrM05
+  integrity sha512-cGeGNdQxqY8qJwlYH1BP6rjIIiEcrM05H7k3tR7WxOLmD1ZxRMd6/QIOWMb8mD2s2YJFNRuNQ+wjMhgEL2oCEw==
+
+"@esbuild/linux-ppc64@0.17.11":
+  version "0.17.11"
+  resolved "https://registry.yarn
