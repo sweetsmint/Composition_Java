@@ -69,4 +69,5 @@
 
 "@esbuild/linux-riscv64@0.17.11":
   version "0.17.11"
-  resolved "https://
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.17.11.tgz#c6ac494a81221d53d65b33e665c7df1747952d3c"
+  integrity sha512-MDLwQbtF
