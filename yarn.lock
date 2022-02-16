@@ -74,4 +74,7 @@
 
 "@esbuild/linux-s390x@0.17.11":
   version "0.17.11"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.17.11.tgz#4bad33894bc7415cea4be8fa90fe456226a424ad
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.17.11.tgz#4bad33894bc7415cea4be8fa90fe456226a424ad"
+  integrity sha512-4N5EMESvws0Ozr2J94VoUD8HIRi7X0uvUv4c0wpTHZyZY9qpaaN7THjosdiW56irQ4qnJ6Lsc+i+5zGWnyqWqQ==
+
+"@esbuild
