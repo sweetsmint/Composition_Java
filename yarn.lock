@@ -89,4 +89,5 @@
 
 "@esbuild/openbsd-x64@0.17.11":
   version "0.17.11"
-  resolved "h
+  resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.17.11.tgz#b355019754116bef39ec688f8fd2fe6471b9779b"
+  integrit
