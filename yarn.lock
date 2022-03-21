@@ -158,4 +158,5 @@
 
 acorn-node@^1.8.2:
   version "1.8.2"
-  resolved "https://registry.yarnpkg.com/acorn-node/-/
+  resolved "https://registry.yarnpkg.com/acorn-node/-/acorn-node-1.8.2.tgz#114c95d64539e53dede23de8b9d96df7c7ae2af8"
+  integrity sha512-8mt+fslDufLYntIoPAaIMUe/lrbrehIiwmR3t2k9LljIzoigEPF27eLk2h
