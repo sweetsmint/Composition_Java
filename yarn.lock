@@ -198,4 +198,8 @@ autoprefixer@10.4.13:
     fraction.js "^4.2.0"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
-    
+    postcss-value-parser "^4.2.0"
+
+binary-extensions@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/binary-extensi
