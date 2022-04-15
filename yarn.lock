@@ -220,4 +220,8 @@ browserslist@^4.21.4:
     caniuse-lite "^1.0.30001400"
     electron-to-chromium "^1.4.251"
     node-releases "^2.0.6"
-    update-browserslist-
+    update-browserslist-db "^1.0.9"
+
+camelcase-css@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0
