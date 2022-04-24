@@ -239,4 +239,5 @@ caniuse-lite@^1.0.30001426:
 
 chokidar@^3.5.3:
   version "3.5.3"
-  resolved "https://registry.ya
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+  integrity sha512-Dr3sfKRP6oTcjf2JmUmFJf
