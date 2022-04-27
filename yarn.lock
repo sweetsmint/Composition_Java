@@ -249,4 +249,9 @@ chokidar@^3.5.3:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.6.0"
-  optionalDep
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+color-name@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/color-na
