@@ -308,4 +308,8 @@ esbuild@0.17.11:
     "@esbuild/linux-ia32" "0.17.11"
     "@esbuild/linux-loong64" "0.17.11"
     "@esbuild/linux-mips64el" "0.17.11"
-    "@esbuild/linux-ppc64
+    "@esbuild/linux-ppc64" "0.17.11"
+    "@esbuild/linux-riscv64" "0.17.11"
+    "@esbuild/linux-s390x" "0.17.11"
+    "@esbuild/linux-x64" "0.17.11"
+    "@esbuild/net
