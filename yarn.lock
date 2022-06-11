@@ -312,4 +312,8 @@ esbuild@0.17.11:
     "@esbuild/linux-riscv64" "0.17.11"
     "@esbuild/linux-s390x" "0.17.11"
     "@esbuild/linux-x64" "0.17.11"
-    "@esbuild/net
+    "@esbuild/netbsd-x64" "0.17.11"
+    "@esbuild/openbsd-x64" "0.17.11"
+    "@esbuild/sunos-x64" "0.17.11"
+    "@esbuild/win32-arm64" "0.17.11"
+    
