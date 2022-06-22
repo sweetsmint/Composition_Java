@@ -337,4 +337,5 @@ fast-glob@^3.2.12:
 
 fastq@^1.6.0:
   version "1.13.0"
-  res
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.13.0.tgz#616760f88a7526bdfc596b7cab8c18938c36b98c"
+  integrity sha512-YpkpUnK8od
