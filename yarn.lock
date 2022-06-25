@@ -351,4 +351,5 @@ fill-range@^7.0.1:
 
 fraction.js@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.yar
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
+  integrity sha512-MhLuK+2gUcnZe8
