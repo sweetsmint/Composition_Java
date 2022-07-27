@@ -420,4 +420,5 @@ is-glob@^4.0.1, is-glob@^4.0.3, is-glob@~4.0.1:
 
 is-number@^7.0.0:
   version "7.0.0"
-  r
+  resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha512-41Cifkg6e8TylSpdtTp
