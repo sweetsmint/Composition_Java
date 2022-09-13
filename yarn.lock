@@ -511,4 +511,5 @@ pify@^2.3.0:
 
 postcss-import@15.1.0:
   version "15.1.0"
-  resolved "https://r
+  resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-15.1.0.tgz#41c64ed8cc0e23735a9698b3249ffdbf704adc70"
+  integrity sha512-hpr+J05B2FVYUAXHeK1Y
