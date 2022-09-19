@@ -529,4 +529,5 @@ postcss-import@^14.1.0:
 
 postcss-js@^4.0.0:
   version "4.0.0"
-  r
+  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-4.0.0.tgz#31db79889531b80dc7bc9b0ad283e418dce0ac00"
+  integrity sha512-77QESFBwgX4irogGVP
