@@ -591,4 +591,10 @@ quick-lru@^5.1.1:
 
 read-cache@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/read-cache/-
+  resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"
+  integrity sha1-5mTvMRYRZsl1HNvo28+GtftY93Q=
+  dependencies:
+    pify "^2.3.0"
+
+readdirp@~3.6.0:
+  v
