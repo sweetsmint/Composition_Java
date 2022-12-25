@@ -627,4 +627,4 @@ reusify@^1.0.4:
 
 run-parallel@^1.1.9:
   version "1.2.0"
- 
+  resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43
